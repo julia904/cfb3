@@ -1,3 +1,4 @@
+'use client'
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 export default function Home() {
