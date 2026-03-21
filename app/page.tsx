@@ -1,6 +1,8 @@
 'use client'
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
+import Plans from "./components/Plans";
+
 export default function Home() {
   return (
     <main className="bg-black text-white">
@@ -31,15 +33,15 @@ export default function Home() {
     href="#contato"
     className="border border-white px-4 py-2 rounded-full text-sm"
   >
-    Contato
+    Redes Sociais
   </a>
 
   <a
-  href="https://wa.me/5514997709326?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20planos%20da%20CFB3"
+  href="https://wa.me/5514997709326?text=Olá,%20gostaria%20de%20agendar%20uma%20aula%20experimental%20na%20CFB3"
   target="_blank"
   className="bg-[#9d172d] px-4 py-2 rounded-full text-sm"
 >
-  Consultar Planos
+  Agendar Experimental
 </a>
 
 </div>
@@ -75,26 +77,31 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
 
-            {/* BOTÃO 1 */}
-            <a
-              href="#horarios"
-              className="bg-[#9d172d] px-8 py-3 rounded font-bold"
-            >
-              Ver horários de aulas
-            </a>
+  
 
-            {/* BOTÃO 2 */}
-            <a
-              href="#coaches"
-              className="border border-white px-8 py-3 rounded"
-            >
-              Coaches
-            </a>
+  <a
+    href="#planos"
+    className="bg-[#9d172d] px-8 py-3 rounded font-bold hover:bg-[#7f1224] transition">
+    Consultar Planos
+  </a>
+  <a href="#coaches" className="bg-[#9d172d] px-8 py-3 rounded font-bold hover:bg-[#7f1224] transition">
+    Coaches
+  </a>
+  <a
+    href="#horarios"
+    className="bg-[#9d172d] px-8 py-3 rounded font-bold hover:bg-[#7f1224] transition"
+  >
+    Ver horários
+  </a>
 
-          </div>
+
+  
+
+</div>
         </div>
 
       </section>
+      <Plans />
 
       {/* COACHES */}
       <section
@@ -118,7 +125,7 @@ export default function Home() {
           alt="Ricardo Coach"
           className="w-40 h-40 object-cover rounded-xl mb-2"
         />
-        <p className="font-semibold">Ricardo</p>
+        <p className="font-semibold">Ricardo Videla</p>
       </div>
 
       {/* CAROL */}
@@ -128,7 +135,7 @@ export default function Home() {
           alt="Carol Coach"
           className="w-40 h-40 object-cover rounded-xl mb-2"
         />
-        <p className="font-semibold">Carol</p>
+        <p className="font-semibold">Ana Carolina</p>
       </div>
 
     </div>
