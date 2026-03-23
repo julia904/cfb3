@@ -35,6 +35,10 @@ export default function Home() {
               Início
             </button>
 
+            <button onClick={() => scrollToSection("planos")}>
+              Planos
+            </button>
+
             <button onClick={() => scrollToSection("coaches")}>
               Coaches
             </button>
@@ -84,7 +88,7 @@ export default function Home() {
             Muito mais que um box de Crossfit. Desde 2019, construindo uma comunidade focada em evolução e na melhor versão de cada aluno.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center md:hidden">
 
 
 
