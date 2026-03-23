@@ -155,7 +155,7 @@ export default function Home() {
       {/* HORÁRIOS */}
       <section
         id="horarios"
-        className="min-h-screen flex justify-center bg-black text-white pb-20"
+        className="min-h-screen flex justify-center bg-zinc-950 text-white pb-20"
       >
 
         <div className="max-w-md w-full px-6 space-y-6 text-center">
@@ -224,7 +224,7 @@ export default function Home() {
       >
         <div className="max-w-md">
           <img
-            src="/Cfb3Logo.png"
+            src="/Cfb3Logo2.png"
             alt="CFB3 Logo"
             className="w-36 mx-auto mb-9"
           />
