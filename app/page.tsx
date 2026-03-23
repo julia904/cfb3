@@ -88,25 +88,25 @@ export default function Home() {
             Muito mais que um box de Crossfit. Desde 2019, construindo uma comunidade focada em evolução e na melhor versão de cada aluno.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center md:hidden">
+          <div className="flex flex-col gap-4 items-center md:hidden">
 
 
 
             <button
               onClick={() => scrollToSection("planos")}
-              className="bg-[#9d172d] px-7 py-3 rounded font-bold hover:bg-[#7f1224] transition"
+              className="bg-[#9d172d] px-6 py-3 rounded font-bold w-full max-w-[280px] hover:bg-[#7f1224] transition"
             >
               Consultar Planos
             </button>
             <button
               onClick={() => scrollToSection("coaches")}
-              className="bg-[#9d172d] px-8 py-3 rounded font-bold hover:bg-[#7f1224] transition"
+              className="bg-[#9d172d] px-6 py-3 rounded font-bold w-full max-w-[280px] hover:bg-[#7f1224] transition"
             >
               Coaches
             </button>
             <button
               onClick={() => scrollToSection("horarios")}
-              className="bg-[#9d172d] px-8 py-3 rounded font-bold hover:bg-[#7f1224] transition"
+              className="bg-[#9d172d] px-6 py-3 rounded font-bold w-full max-w-[280px] hover:bg-[#7f1224] transition"
             >
               Ver Horários
             </button>
